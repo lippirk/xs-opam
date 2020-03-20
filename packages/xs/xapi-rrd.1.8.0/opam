@@ -30,5 +30,5 @@ Round-Robin Databases (RRDs) are constant-space datastructures
 used for archiving historical data where the older data is stored
 at a lower resolution."""
 url {
-  src: "https://github.com/lippirk/xcp-rrd/archive/33354.0.tar.gz"
+  src: "https://github.com/lippirk/xcp-rrd/archive/test-failure.tar.gz"
 }
