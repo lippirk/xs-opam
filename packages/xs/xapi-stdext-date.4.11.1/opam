@@ -11,13 +11,16 @@ build:  [[ "dune" "build" "-p" name "-j" jobs ]]
 depends: [
   "ocaml"
   "dune" {build}
+  "astring"
+  "base-unix"
+  "ptime"
 ]
-synopsis: "A deprecated collection of utility functions - Encodings module"
+synopsis: "A deprecated collection of utility functions - Date module"
 description: """
 This library is provided for a transitionary period only.
 No new code should use this library."""
 url {
   src:
-    "https://github.com/xapi-project/stdext/archive/v4.11.0.tar.gz"
-  checksum: "sha256=d24b4475632f0795df895c14def93d8ee5e7dd3570dda010b10323f56e8894a3"
+    "https://github.com/lippirk/stdext/archive/v4.11.1.tar.gz"
+  checksum: "sha256=1303434cc730a21cbfe912ae37f6b4b4795034be7f4c80e6bbceae68eac59d3b"
 }
