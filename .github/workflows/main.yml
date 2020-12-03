@@ -48,6 +48,8 @@ jobs:
 
       - name: Upgrade existing packages
         run: |
+          opam repo add xs-opam --all-switches .
+          opam repo remove --all default
           opam update
           opam depext -vv -y xs-toolstack
           opam upgrade
