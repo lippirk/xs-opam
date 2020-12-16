@@ -19,6 +19,6 @@ This library is provided for a transitionary period only.
 No new code should use this library."""
 url {
   src:
-    "https://github.com/xapi-project/stdext/archive/v4.11.1.tar.gz"
-  checksum: "sha256=9219e973963c2596a0458dd187f9bf51977625faf0794b75f8d174e27bfc50ce"
+    "https://github.com/lippirk/stdext/archive/xsi894-stockholm.tar.gz"
+  checksum: "sha256=1534f06aa19bd3f1a912348b7046bbd3e645253e4d473bf3397bb51b87fc110c"
 }
